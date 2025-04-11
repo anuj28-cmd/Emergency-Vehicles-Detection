@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 6
+names: ['auto-rikshaw', 'bike', 'bus', 'car', 'priority', 'truck']
+
+roboflow:
+  workspace: hf-riaag
+  project: indian_balanced_dataset-2
+  version: 3
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/hf-riaag/indian_balanced_dataset-2/dataset/3
